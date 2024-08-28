@@ -279,7 +279,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    padding-right: 465px;
+    padding-right:50%;
     margin-top: 20px;
 }
 
@@ -287,4 +287,122 @@ body {
     list-style: none;
     display: flex;
     gap: 24px;
+}
+
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px 50px;
+    width: 1220px;
+    height: 616px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.h-image {
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.h-title {
+    margin-top: 40px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 0px;
+}
+
+.h-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 22px;
+}
+
+.es {
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.email-box {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+    text-align: center;
+}
+
+.sub-btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 26px 56px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer {
+    background: #070211;
+    width: 1320px;
+    height: 550px;
+    flex-shrink: 0;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF26;
+    margin-top: 30px;
+    width: 1020px;
+    height: 1px;
+    border: none;
+}
+
+.fa {
+    padding-left: 150px;
+    padding-top: 110px;
+    padding-right: 220px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.fb {
+    text-align: center;
+    margin-top: 38px;
+}
+
+.fba {
+    padding-left: 20px;
+}
+
+.fc {
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fca {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.fcb {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;    
+}
+.fcb:hover{
+    text-decoration: underline;
 }
